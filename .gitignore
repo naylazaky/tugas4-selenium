@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+*.html
+*.jar
+coba.py
+test_klik.py
+debug_*.py
