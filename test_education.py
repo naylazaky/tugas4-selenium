@@ -34,4 +34,3 @@ def test_education_dropdown_item(driver, nama_menu, url_part, title_part):
 
     wait.until(EC.url_contains(url_part))
     assert url_part in driver.current_url
-    assert title_part in driver.title

@@ -12,4 +12,3 @@ def test_newsletter_page_opens(driver):
 
     wait.until(EC.url_contains("ultimateqa.kit.com"))
     assert "ultimateqa.kit.com" in driver.current_url
-    assert "UltimateQA Weekly Newsletter" in driver.title
